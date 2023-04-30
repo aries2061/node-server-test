@@ -6,7 +6,7 @@ app.get("/", (req,res) => {
     const data = {
         "Greeting": "Welcome"
     };
-    return res.status(200).json({data});
+    return res.status(200).json(data);
 });
 
 const PORT = process.env.PORT || 3000;
